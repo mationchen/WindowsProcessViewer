@@ -1,0 +1,20 @@
+# 构建产物
+bin/
+obj/
+publish/
+.vs/
+
+# 运行产物
+Logs/
+*.csv
+cache.db
+cache.db-wal
+cache.db-shm
+
+# 用户/IDE
+*.user
+*.suo
+.idea/
+
+# 配置里可能有 API Key：只提交模板，不提交带真实 Key 的副本
+appsettings.local.json
